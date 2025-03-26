@@ -1,9 +1,9 @@
 # 我的世界明日方舟技能数据包（停更中）
 
 # 使用方法
-datapark为数据包文件，解压后放入../saves/world/dataparks路径下。\n
-resources为资源包文件，解压后放入../resourcepacks路径下\n
-testworld为测试存档文件，解压后放入../saves路径下，存档中已经包含数据包与资源包。\n
+datapark为数据包文件，解压后放入../saves/world/dataparks路径下
+resources为资源包文件，解压后放入../resourcepacks路径下
+testworld为测试存档文件，解压后放入../saves路径下，存档中已经包含数据包与资源包
 
 # 干员技能获取方法
 testworld中有一个用于获取技能的命令方块，修改其中代码，将需要替换的地方替换为技能拼音全称（小写），启动命令方块即可
