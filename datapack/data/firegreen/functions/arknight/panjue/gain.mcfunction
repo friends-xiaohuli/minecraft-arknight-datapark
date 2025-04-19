@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{CustomModelData:3,display:{Name:"{\"text\": \"判决\",\"color\": \"red\"}",Lore:["{\"translate\": \"对周围所有地面敌人造成 %s 的弹射物伤害并使其浮空 %s 秒，然后快速地对随机目标造成弹射物伤害为 %s 的轰击\",\"color\": \"white\",\"with\": [{\"text\": \"15\",\"color\": \"blue\"},{\"text\": \"3\",\"color\": \"blue\"},{\"text\": \"5\",\"color\": \"blue\"}]}"]}} 1

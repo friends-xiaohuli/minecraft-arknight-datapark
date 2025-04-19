@@ -1,0 +1,31 @@
+{
+    "parent": "firegreen:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "力之锯",
+        "description": "力之锯",
+        "announce_to_chat": false,
+        "hidden": true,
+        "show_toast": false
+    },
+    "criteria": {
+        "lizhiju":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:carrot_on_a_stick"],
+                            "nbt": "{CustomModelData:6}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "firegreen:arknight/lizhiju/01"
+    }
+}

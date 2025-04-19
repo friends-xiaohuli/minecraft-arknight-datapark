@@ -1,0 +1,2 @@
+execute at @s as @e[type=minecraft:item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:spyglass",tag:{Unbreakable:1b}}}] at @s run execute as @p at @s run function firegreen:arknight/yonghengshoulie/bow/gain
+execute at @s run kill @e[type=minecraft:item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:spyglass",tag:{Unbreakable:1b}}}]

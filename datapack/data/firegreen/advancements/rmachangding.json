@@ -1,0 +1,31 @@
+{
+    "parent": "firegreen:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "RMA长钉",
+        "description": "RMA长钉",
+        "announce_to_chat": false,
+        "hidden": true,
+        "show_toast": false
+    },
+    "criteria": {
+        "rmachangding":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:carrot_on_a_stick"],
+                            "nbt": "{CustomModelData:8}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "firegreen:arknight/rmachangding/01"
+    }
+}

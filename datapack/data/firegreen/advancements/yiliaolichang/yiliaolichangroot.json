@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "医疗力场",
+        "description": "医疗力场",
+        "announce_to_chat": false,
+        "hidden": true,
+        "show_toast": false
+    },
+    "criteria": {
+        "yiliaolichang1":{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "parent": "firegreen:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "受击",
+        "description": "",
+        "announce_to_chat": false,
+        "hidden": true,
+        "show_toast": false
+    },
+    "criteria": {
+        "weizhaoyaotarget":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {},
+                "damage": {
+                    "source_entity": {}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "firegreen:arknight/target/target"
+    }
+}

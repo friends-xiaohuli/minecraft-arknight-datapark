@@ -1,0 +1,31 @@
+{
+    "parent": "firegreen:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "未照耀的荣光",
+        "description": "",
+        "announce_to_chat": false,
+        "hidden": true,
+        "show_toast": false
+    },
+    "criteria": {
+        "weizhaoyaoderongguang":{
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:carrot_on_a_stick"],
+                            "nbt": "{CustomModelData:9}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "firegreen:arknight/weizhaoyaoderongguang/01"
+    }
+}

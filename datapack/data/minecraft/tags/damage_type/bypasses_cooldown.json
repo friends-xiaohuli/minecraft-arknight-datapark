@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:arrow",
+    "minecraft:player_attack",
+    "minecraft:magic",
+    "minecraft:out_of_world"
+  ]
+}

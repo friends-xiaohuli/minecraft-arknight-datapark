@@ -1,0 +1,2 @@
+scoreboard players set @s yonghengused 0
+item replace entity @s weapon.mainhand with spyglass{Unbreakable:true,display:{Name:"{\"text\": \"瞄准镜\",\"color\": \"red\"}",Lore:["{\"text\": \"扔出以使用\",\"color\": \"white\"}"]}} 1
