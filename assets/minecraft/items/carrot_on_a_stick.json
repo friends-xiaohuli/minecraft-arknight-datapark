@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "data":"1"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/carrot_on_a_stick"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "arknight:item/yonghengshoulie"
+    }
+  }
+}
