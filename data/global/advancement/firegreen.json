@@ -1,0 +1,22 @@
+{
+    "display": {
+      "title": "firegreen",
+      "description": "明日方舟技能 主库作者",
+      "icon": {
+        "id": "minecraft:player_head",
+        "components": {
+          "minecraft:profile": {
+            "name": "firegreen"
+          }
+        }
+      },
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
