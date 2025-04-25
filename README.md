@@ -1,14 +1,26 @@
 # arkdata 主库
 
-我的世界明日方舟技能数据包
+这是一个基于我的世界复刻明日方舟技能的数据包
 
-## 使用方法
+喵~ FORK-1.21.5
 
-datapark为数据包文件，解压后放入../saves/world/dataparks路径下
+## 分支
 
-resources为资源包文件，解压后放入../resourcepacks路径下
+datapark为数据包文件，放入../saves/world/dataparks路径下
 
-testworld为测试存档文件，解压后放入../saves路径下，存档中已经包含数据包与资源包
+resources为资源包文件，放入../resourcepacks路径下
+
+main主库 下的 testworld 为前作者的测试存档文件
+
+
+## 目前1.21.5已修复的技能
+
+提丰-永恒狩猎（材质完成）
+
+
+
+
+# FORK前的README
 
 ## 干员技能获取方法
 
